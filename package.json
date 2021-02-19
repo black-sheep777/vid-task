@@ -23,7 +23,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
-    "format": "prettier --write 'src/**/*.{ts,tsx,scss,css,json}'"
+    "format": "prettier --write 'src/**/*.{ts,tsx,scss,css,json}'",
+    "test:lint:scss": "stylelint --config=.stylelintrc '**/*.scss'"
   },
   "eslintConfig": {
     "extends": [
@@ -60,6 +61,8 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-webpack-plugin": "^2.5.2",
     "prettier-eslint": "^12.0.0",
-    "prettier-eslint-cli": "^5.0.0"
+    "prettier-eslint-cli": "^5.0.0",
+    "stylelint": "^13.10.0",
+    "stylelint-config-standard": "^20.0.0"
   }
 }
