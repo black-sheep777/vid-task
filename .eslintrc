@@ -72,7 +72,11 @@
       "react/no-unescaped-entities": "off",
       "react/jsx-one-expression-per-line": "off",
       "react/jsx-wrap-multilines": "off",
-      "react/destructuring-assignment": "off"
+      "react/destructuring-assignment": "off",
+      "semi": ["error", "never"],
+      "@typescript-eslint/comma-dangle": ["error", "never"],
+      "comma-dangle": ["error", "never"]
+      
     }
   }
   
