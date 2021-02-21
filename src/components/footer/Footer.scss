@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  &__btn--black {
+    background-color: black;
+    color: white;
+    width: 45px;
+    height: 45px;
+  }
+
+  &__btn--red {
+    background-color: red;
+    color: white;
+    width: 48px;
+    height: 48px;
+    margin: 1px 30px 0 30px;
+  }
+
+  &__callIcon {
+    width: 30px;
+    height: 30px;
+  }
+}
