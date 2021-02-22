@@ -1,0 +1,53 @@
+.callerCard {
+  display: flex;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+
+  &__moreOptions {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    background-color: transparentize(#767676, (1 - 0.5));
+    color: white;
+    width: 35px;
+    height: 35px;
+  }
+
+  &__actions {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    padding: 0 8px 8px 8px;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  &__btn--red {
+    background-color: transparentize(red, (1 - 0.3));
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+  }
+
+  &__name {
+    display: flex;
+    width: auto;
+    padding: 2px 5px;
+    text-align: center;
+    justify-content: center;
+    background-color: transparentize(#5a616b, (1 - 0.8));
+    border-radius: 10px;
+    flex-grow: 1;
+  }
+
+  &__signal {
+    color: #2ecb6c;
+    width: 50px;
+    height: 30px;
+    flex-grow: 1;
+  }
+}
