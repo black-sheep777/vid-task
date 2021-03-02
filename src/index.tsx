@@ -2,11 +2,18 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import 'index.scss'
 import App from 'components/app/App'
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
+import reducer from 'components/reducers/callersReducer'
 import reportWebVitals from './reportWebVitals'
+
+const caseSession = createStore(reducer)
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={caseSession}>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 )

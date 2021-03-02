@@ -6,6 +6,7 @@ import Footer from 'components/footer/Footer'
 import 'components/app/App.scss'
 import RGL, { WidthProvider } from 'react-grid-layout'
 
+
 const ReactGridLayout = WidthProvider(RGL)
 
 type Layout = Array<object>
